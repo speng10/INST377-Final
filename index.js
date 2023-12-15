@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/public'))
 
 // GET, which serves the welcome_page.html page
 app.get("/", (req, res) => {
-    res.sendFile("public/Zach Content/welcome_page.html", { root: __dirname })
+    res.sendFile("public/Zach Content/index.html", { root: __dirname })
 })
 
 // GET, which serves the players.html page
