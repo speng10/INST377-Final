@@ -14,27 +14,27 @@ app.get("/", (req, res) => {
 })
 
 // GET, which serves the players.html page
-app.get("/about", (req, res) => {
+app.get("/players_page", (req, res) => {
     res.sendFile("public/Zach Content/players_page.html", { root: __dirname })
 })
 
 // GET, which serves the About.html page
-app.get("/catalog", (req, res) => {
+app.get("/About", (req, res) => {
     res.sendFile("public/About.html", { root: __dirname })
 })
 
 // GET, which serves the homePage.html page
-app.get("/catalog", (req, res) => {
+app.get("/homePage", (req, res) => {
     res.sendFile("public/homePage.html", { root: __dirname })
 })
 
 // GET, which serves the Help.html page
-app.get("/catalog", (req, res) => {
+app.get("/Help", (req, res) => {
     res.sendFile("public/Help.html", { root: __dirname })
 })
 
 // GET, which serves the catalog.html page
-app.get("/catalog", (req, res) => {
+app.get("//teamPage", (req, res) => {
     res.sendFile("public/teamPage.html", { root: __dirname })
 })
 
