@@ -1,7 +1,7 @@
 const bodyParser = require('body-parser')
 const express = require("express")
 const app = express()
-const port = 3000
+const port = 4000
 
 app.use(bodyParser.json())
 
@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/public'))
 
 // GET, which serves the welcome_page.html page
 app.get("/", (req, res) => {
-    res.sendFile("public/Zach Content/index.html", { root: __dirname })
+    res.sendFile("public/Zach Content/welcome_page.html", { root: __dirname })
 })
 
 // GET, which serves the players.html page
@@ -35,7 +35,7 @@ app.get("/catalog", (req, res) => {
 
 // GET, which serves the catalog.html page
 app.get("/catalog", (req, res) => {
-    res.sendFile("public/team.html", { root: __dirname })
+    res.sendFile("public/teamPage.html", { root: __dirname })
 })
 
 // example GET endpoint, which returns the current date
