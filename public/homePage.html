@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Official NBA Statistics: Home Page</title>
+    <style>
+        body {
+            background-color: #151226;
+        }
+
+        #main-nav {
+            background-color: #C9082A;
+            border-radius: 30px;
+            width: 40%;
+            float: right;
+        }
+
+        #main-nav a {
+            font-family: Impact, fantasy;
+        }
+
+        #main-nav ul {
+            text-align: center;
+        }
+
+        #main-nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            text-align: center;
+            width: 11%;
+            padding: 12px;
+        }
+
+        #main-nav li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #main-nav li:hover {
+            background-color: #17408B;
+            border-radius: 30px;
+            text-decoration: underline;
+        }
+
+        #main-nav li:hover a {
+            color: aliceblue;
+        }
+
+        #main_header .title_h1 {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        #ballspin {
+            animation: spin 2s infinite linear;
+            transform-origin: center;
+            display: inline-block;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .search-section {
+            background-color: #1D428A;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            color: white;
+        }
+
+        .search-section h2 {
+            margin-bottom: 10px;
+        }
+
+        .search-section input[type="text"],
+        .search-section input[type="date"],
+        .search-section button {
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .search-section button {
+            cursor: pointer;
+            background-color: #C9082A;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .search-section button:hover {
+            background-color: #17408B;
+        }
+
+        .search-results {
+            margin-top: 20px;
+        }
+
+        .search-container {
+            display:flex;
+            justify-content: space-between;
+        }
+
+        .search-section {
+            width: 47%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body id="mainBody">
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="homePage.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="players_page.html">Players</a></li>
+            <li><a href="teamPage.html">Teams</a></li>
+            <li><a href="Help.html">Help</a></li>
+        </ul>
+    </nav>
+
+    <div id="main_header">
+        <h1 class="title_h1" style="color: #17408B;">Official</h1>
+        <h1 class="title_h1" style="color: #FFFFFF;">NBA</h1>
+        <h1 class="title_h1" style="color: #C9082A;">Statistics</h1>
+        <a href="welcome_page.html">
+            <h1 id="ballspin">&#x1F3C0;</h1>
+        </a>
+    </div>
+
+    <!-- Two search sections on each side -->
+    <div class="search-container">
+        <div class="search-section" id="search-player">
+            <h2>Search Player</h2>
+            <input type="text" id="playerName" placeholder="Enter player name">
+            <button onclick="searchPlayer()">Search</button>
+            <div id="playerStats" class="search-results"></div>
+        </div>
+
+        <div class="search-section" id="search-team">
+            <h2>Search Team</h2>
+            <input type="text" id="teamName" placeholder="Enter team name">
+            <button onclick="searchTeam()">Search</button>
+            <div id="teamInfo" class="search-results"></div>
+        </div>
+    </div>
+
+    <div class="search-container">
+        <div class="search-section" id="search-date">
+            <h2>Search Date</h2>
+            <input type="date" id="gameDate">
+            <button onclick="searchDate()">Search</button>
+            <div id="gameInfo" class="search-results"></div>
+        </div>
+
+        <div class="search-section" id="search-stats">
+            <h2>Search Stats</h2>
+            <input type="date" id="statDate">
+            <button onclick="searchStats()">Search</button>
+            <div id="statInfo" class="search-results"></div>
+        </div>
+    </div>
+
+</body>
+
+<script src="homePage.js"></script>
+
+</html>
