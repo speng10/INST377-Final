@@ -5,3 +5,27 @@
 *You can go to the welcome page by clicking on the rotating image of the basektball next to the title header of every page
 
 *On the welcome page at the bottom there is a tiny box with the picture of a speaker, that can be clicked to turn off and on the sound that is being played when the welcome page boots up
+
+## Home Page
+
+## Players Page
+On this page you can compare the different stats of up to five NBA players. Here the stats are illustrated through the users choice of a bar graph or line graph. When the user first comes acrross the page, a default chart of the Top NBA Players of 2023 by Total Career Points will be displayed. When a user decides to type in a player's name in the "Search Player" text boxes, and the the user does not know the complete spelling of a NBA player's full name, don't worry as the text boxes have a autocomplete feature. The the different stat options will be located in the "Select Statistics Options" box where users can chose options from comparing weight to the average points per game for a given season of the selected players. The "Pick A Graph To Display" and "Select Statistics Options" boxes both have a dropdown menu designed to make selecting options more convenient for the user. Lastly, if the user does not want the graphs to show, the user can click the label title of the graph and the graph will disappear. This is a key feature of the Chart.js library. Below will be a sample step by step guide on how to use the features of the page.
+
+Step 1: Pick a graph to display
+
+Go to the "Pick A Graph To Display" box and click on the white box with text "Select graph"
+Once you click the white box, a drop down menu appears with two graph options of "Bar Chart" and "Line Chart"
+Click on one of the graph options to display the desired graph
+Step 2: Select 5 NBA players to compare stats
+
+Go to the boxes with the labels "Search Player" followed by a number indicating the number of the player and then click on the white box text box
+Once you click the white box, type in the player you wish to use and a dropdown menu will apear with the player's name along with other players
+Click on the player you want from the dropdown menu
+Repeat steps a to c, for all remaining players
+Step 3: Chose a statistics option
+
+Go to the box with the label "Select Statistics Options" and click on the white box with the text "Select statistics"
+Once you click the white box, a drop down menu appears with six statistics options such as "Weight[Pounds]" or "Season 2023 [Avg Points Scored Per Game]"
+Click on one of the statistics options to display the graph with the player statistics based on the selected stats option
+
+## Teams Page 
