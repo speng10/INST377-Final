@@ -13,19 +13,21 @@ On this page you can compare the different stats of up to five NBA players. Here
 
 Step 1: Pick a graph to display
 
-Go to the "Pick A Graph To Display" box and click on the white box with text "Select graph"
-Once you click the white box, a drop down menu appears with two graph options of "Bar Chart" and "Line Chart"
-Click on one of the graph options to display the desired graph
+* Go to the "Pick A Graph To Display" box and click on the white box with text "Select graph"
+* Once you click the white box, a drop down menu appears with two graph options of "Bar Chart" and "Line Chart"
+* Click on one of the graph options to display the desired graph
+  
 Step 2: Select 5 NBA players to compare stats
 
-Go to the boxes with the labels "Search Player" followed by a number indicating the number of the player and then click on the white box text box
-Once you click the white box, type in the player you wish to use and a dropdown menu will apear with the player's name along with other players
-Click on the player you want from the dropdown menu
-Repeat steps a to c, for all remaining players
+* Go to the boxes with the labels "Search Player" followed by a number indicating the number of the player and then click on the white box text box
+* Once you click the white box, type in the player you wish to use and a dropdown menu will apear with the player's name along with other players
+* Click on the player you want from the dropdown menu
+* Repeat steps a to c, for all remaining players
+
 Step 3: Chose a statistics option
 
-Go to the box with the label "Select Statistics Options" and click on the white box with the text "Select statistics"
-Once you click the white box, a drop down menu appears with six statistics options such as "Weight[Pounds]" or "Season 2023 [Avg Points Scored Per Game]"
-Click on one of the statistics options to display the graph with the player statistics based on the selected stats option
+* Go to the box with the label "Select Statistics Options" and click on the white box with the text "Select statistics"
+* Once you click the white box, a drop down menu appears with six statistics options such as "Weight[Pounds]" or "Season 2023 [Avg Points Scored Per Game]"
+* Click on one of the statistics options to display the graph with the player statistics based on the selected stats option
 
 ## Teams Page 
