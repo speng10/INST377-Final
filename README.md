@@ -44,7 +44,7 @@ We can adjust the CSS for the home page so that the div boxes are separate and u
 
 We can improve the players' page by displaying more than one graph at a time for the different statistic options so the user doesn't need to constantly flip back and forth if they want to compare something.
 
-Regarding bugs, there is a slight issue with the players page not fetching and displaying the information of all 5 players on the graph from time to time. For example, sometimes only 4 out of 5 the players information will be displayed on the graph. We aim to fix this bug in a future update. 
+Regarding bugs, there is a slight issue with the players page not fetching and displaying the information of all 5 players on the graph from time to time. For example, sometimes only 4 out of the 5 players information will be displayed on the graph. We aim to fix this bug in a future update. 
 
 
 
