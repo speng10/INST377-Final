@@ -8,15 +8,16 @@ app.use(bodyParser.json())
 // this allows us to use all files in the public folder
 app.use(express.static(__dirname + '/public'))
 
+app.get("/", (req, res) => {
+    res.sendFile("public/welcome_page.html", { root: __dirname })
+    
+})
+
 // GET, which serves the welcome_page.html page
 app.get("/", (req, res) => {
     res.sendFile("public/welcome_page_animation.html", { root: __dirname }) 
 })
 
-app.get("/", (req, res) => {
-    res.sendFile("public/welcome_page.html", { root: __dirname })
-    
-})
 // GET, which serves the players.html page
 app.get("/players_page", (req, res) => {
     res.sendFile("public/players_page.html", { root: __dirname });
