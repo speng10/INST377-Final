@@ -9,13 +9,13 @@
 ## Home Page
 This is the homepage where you can search for a specific players, teams, game dates and game stats. In addition, we also implemented database to help us track user's favorites searches, such as searched players and teams; this give us an idea of the popular players/teams user are interested.
 
-Search players:
+* Search players:
 You can search a specific player by their first or last name! After a successful search, it will display information about the player's Name, Team, Position, Height and Weight, etc.
-Search Teams:
+* Search Teams:
 This option allows you to search for a team that you are interested in; you can search by the team's city or nickname, whichever you like, and it will display that team's information such as their full name, abbreviation,, their city, conference and their division,
-Search Date:
+* Search Date:
 This option allows you to search for games on a specific date! Either in the past or in the future. For example, if you search for a date in the past, it will display information about what teams were played on that day and their scores; if you search for a future date, it will show the upcoming games to watch!
-Search Stats:
+* Search Stats:
 This option allows you to look into the statistics of games played on a specific date! If you search for a date, it will display information such as the final score, the home/visitor's team stats, including each player's gameplay (Number of Points, Assists, Rebounds, Blocks, and Steals)
 
 
