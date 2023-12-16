@@ -1,4 +1,3 @@
-
 var audio_element = document.getElementById("audio");
 var button_element = document.getElementById("speaker_status");
 button_element.innerHTML = "&#x1F50A;"
