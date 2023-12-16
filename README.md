@@ -14,7 +14,7 @@ To display this information, we will be styling our web pages using HTML and CSS
 
 ## Description of target browsers: 
 
-# Developer Manual
+# User Manual
 
 [User Manual](docs/UserManual.md)
 
