@@ -14,9 +14,13 @@ To display this information, we will be styling our web pages using HTML and CSS
 
 ## Description of target browsers: 
 
-[User Manual](docs/DeveloperManual.md)
+# Developer Manual
+
+[User Manual](docs/UserManual.md)
 
 # Developer Manual
+
+[Developer Manual](docs/DeveloperManual.md)
 
 ## How to install application and all dependencies
 1. First git clone the repository files to your local computer. This can be done by clicking the "Code" button on the repo page. Once you click the button, you can git clone by using either HTTPS, SSH or GitHub CLI. For Mac users, you can open up the terminal and type in 'git clone [Insrt SSH Link]' and it will download the repo files as one folder to your desired local computer directory.
