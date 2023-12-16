@@ -39,12 +39,19 @@ Most of the tests written are if the api is not responsive in getting data for t
 
 ## The API for your server application - all GET, POST, PATCH, etc endpoints, and what they each do 
 Get All Players: This endpoint retrieves all players from all seasons. You can use the following command to retrieve all players: curl "https://www.balldontlie.io/api/v1/players". You can also use the search parameter to filter players based on their name.
+
 Get a Specific Player: This endpoint retrieves a specific player. You can use the following command to retrieve a specific player: curl "https://www.balldontlie.io/api/v1/players/<ID>". Replace <ID> with the ID of the player you want to retrieve.
+
 Get All Teams: This endpoint retrieves all teams for the current season. You can use the following command to retrieve all teams: curl "https://www.balldontlie.io/api/v1/teams".
+
 Get All Games: This endpoint retrieves all games. Seasons are represented by the year they began. For example, 2018 represents season 2018-2019. You can use the following command to retrieve all games: curl "https://www.balldontlie.io/api/v1/games".
+
 Get a Specific Game: This endpoint retrieves a specific game. You can use the following command to retrieve a specific game: curl "https://www.balldontlie.io/api/v1/games/<ID>". Replace <ID> with the ID of the game you want to retrieve.
+
 Get Stats for a Specific Player: This endpoint retrieves the stats for a specific player. You can use the following command to retrieve the stats for a specific player: curl "https://www.balldontlie.io/api/v1/stats?seasons[]=2018&player_ids[]=<ID>". Replace <ID> with the ID of the player you want to retrieve stats for.
+
 Get Stats for a Specific Team: This endpoint retrieves the stats for a specific team. You can use the following command to retrieve the stats for a specific team: curl "https://www.balldontlie.io/api/v1/stats?seasons[]=2018&team_ids[]=<ID>". Replace <ID> with the ID of the team you want to retrieve stats for.
+
 
 ## A clear set of expectations around known bugs and a road-map for future development 
 For each page, there is always room for improvement. For the team's page with the map, we would like to make the image adjustable so it would be usable on a phone or tablet screen, not just set for a computer screen. Also, make it more versatile and adjustable in general. 
