@@ -42,3 +42,13 @@ Step 3: Chose a statistics option
 * Click on one of the statistics options to display the graph with the player statistics based on the selected stats option
 
 ## Teams Page 
+On this page you can search for different teams and their information by clicking the map. 
+
+* You can hover over the map and the different team names will come up over the area.
+* Once you click them the information for the team will come up:
+    * Abbreviation
+    * City they are from
+    * What conference they are in
+    * What division they are in
+    * Full name of the team
+    * General name of the team
